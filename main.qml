@@ -104,16 +104,7 @@ Window {
                 transitions:[Transition{
                         from:"display"
                         to: "hide"
-//                        reversible: true;
-                    NumberAnimation{
-                        property: "y";
-                        easing.type: Easing.InOutQuad;
-                        duration: 500;
-                    }
-                },Transition{
-                        from:"hide"
-                        to: "display"
-//                        reversible: true;
+                        reversible: true;
                     NumberAnimation{
                         property: "y";
                         easing.type: Easing.InOutQuad;
